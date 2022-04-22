@@ -1,0 +1,10 @@
+#BOOTSTRAP-CALCULADORA
+spring:
+  application:
+    name: calculadora-micro
+  config:
+    name: ${spring.application.name}
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      
